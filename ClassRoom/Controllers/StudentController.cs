@@ -23,8 +23,8 @@ namespace ClassRoom.Controllers
             return Ok(result);
         }
 
-        [HttpGet]
-        public IActionResult GetAll ()
+        [HttpGet("GetAllStudent")]
+        public IActionResult GetAll()
         {
             var result = _repo.GetStudents();
             return Ok(result);

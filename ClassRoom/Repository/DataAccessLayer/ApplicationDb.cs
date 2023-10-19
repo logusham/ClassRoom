@@ -9,7 +9,7 @@ namespace ClassRoom.Repository.DataAccessLayer
         {
             
         }
-        public DbSet<StudentRepo> Students { get; set; }
+        public DbSet<Student> Students { get; set; }
 
     }
 }
